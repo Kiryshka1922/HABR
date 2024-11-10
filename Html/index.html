@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Habr</title>
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body class="main">
+    <div class="title">
+        <div class="HABRRR">
+            <img class="H" src="/image/Vector.svg" alt="H">
+            <img class="a" src="/image/Vector-1.svg" alt="a">
+            <img class="b" src="/image/Vector-2.svg" alt="b">
+            <img class="r" src="/image/Vector-3.svg" alt="r">
+        </div>
+    </div>
+    <section>
+        <main class="Registration"><h2 class="Name">Регистрация </h2>
+        <form>
+            <label for="Email">Email:</label>
+            <input id="Email" autocomplete="off" autofocus type="email" name="email" placeholder="mail@mail.ru" required pattern="\S+@\S+\.\S+$" inputmode="email" >
+            <label for="Nickname">Никнейм:</label>
+            <input id="Nickname" autocomplete="off" type="email" name="email" inputmode="text" required ><br>
+            <label for="password">Пароль</label>
+            <input id="password" type="password" name="password" maxlength="12"  required ><br>
+            <label for="Passwordagain">Повторите пароль:</label>
+            <input id="Passwordagain" type="password" name="passwordagain"  required ><br>
+    
+            <div class="buttons"><input class="reset" type="reset" value="Сбросить"/>      <button class="button"><a href="#">Регистрация</a></button>
+            </div>
+        </form>
+        </main>
+       <div class="footer">
+        <article class="">Уже зарегистрированы? <span class="Hover"><a href="/Html/entrance.html">Войдите</a></span></article>
+       </div>
+    </section>
+</body>
+</html>

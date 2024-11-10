@@ -1,0 +1,114 @@
+.main{
+background-color:black;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+}
+.H{
+    width: 15.7px;
+    height: 16.9px;
+    margin-top: 1.65px;
+    }
+    .a{
+    width: 11.23px;
+    height: 12.98px;
+    margin-top: 10px;
+    margin-left: -1px;
+    }
+    .b{
+        width: 12.67px;
+        height: 18.17px;
+    margin-top:0.67px; 
+    margin-left: -1px;   
+    }
+    .r{
+        width: 12.36px;
+        height: 15.06px;
+        margin-top:5.85px;     
+        margin-left: -1px;   
+    }
+.HABRRR{
+    display: flex;
+    column-gap: 4px;
+    align-items: end;
+}
+.title{
+font-weight: 700;
+background-color: #303B44;
+padding-left: 147px;
+height: 45px;
+padding-top: 10px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+height: 40px; 
+width: 390px;
+background-color: #171717;
+border: 2px solid white;
+border-radius: 14px;
+margin: 25px 15px;
+color: #fff;
+}
+.Registration{
+background-color: #171717;
+width: 460px;
+height: 596px;
+margin: 20px;
+justify-content: center
+}
+.title{
+    background-color: #303B44;
+    padding-left: 23px;
+    padding-top: 12px;
+    height: 48px;
+    }
+.footer{
+    background-color: #171717;
+    width: 460px;
+    height: 48px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.button{
+    background-color: #558CB7;
+    height: 48px;
+    width: 380px;
+    border-radius: 14px;
+    margin-top: 23px;
+
+}
+a{
+    color:#fff;
+}
+.reset{
+    height: 48px;
+    width: 380px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+
+}
+.Name{
+    text-decoration: underline 3px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+.Hover:hover{
+    color: #558CB7;
+    font-weight: 550;
+    text-decoration: underline 2px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}

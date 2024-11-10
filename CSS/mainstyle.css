@@ -1,0 +1,194 @@
+body {
+    background-color: #080808;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.title{
+background-color: #303B44;
+padding-left: 23px;
+padding-top: 12px;
+height: 48px;
+}
+.H{
+width: 15.7px;
+height: 16.9px;
+}
+.a{
+width: 11.23px;
+height: 12.98px;
+margin-top: 5.2px;
+margin-left: -1px;
+}
+.b{
+    width: 12.67px;
+    height: 18.17px;
+margin-top:0.67px; 
+margin-left: -1px;   
+}
+.r{
+    width: 12.36px;
+    height: 17.06px;
+    margin-top:5.85px;     
+    margin-left: -1px;   
+}
+.head{
+display: flex;
+justify-content: space-between;
+background-color: #171717;
+padding: 0 24px;
+height: 56px;
+}
+.Navigation > a{
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+    transition: 0.2s ease-in;
+}
+.Navigation{
+    padding-top: 20px;
+    width: 900;
+}
+a.first{
+    margin-left: 0px;
+}
+.img{
+    padding-top: 15px;
+}
+
+.Pencil{
+    height: 24px;
+    width: 24px;
+}
+.main{
+    margin-left: 15px;
+    width: 32.53px;
+    height: 29px;
+    border-radius: 3px;
+}
+a:hover{
+text-decoration: underline 2px;
+}
+.Conteiner{
+    display: flex;
+    padding: 0 12px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    row-gap: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Article{
+    display: block;
+    background-color: #171717;
+width: auto;
+height: 826.73px;
+padding: 16px 20px 16px 20px;
+
+}
+.Menu{
+    background-color: #171717;
+    height: 484px;
+    width: 300px;
+}
+.Statia{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #5AACFF;
+    margin-bottom: 13px;
+}
+.Person{
+    display: flex;
+
+height: 47px;
+padding-bottom: 8px;
+}
+span.Name{
+    margin-left: 10px;
+    color: #DDDDDD;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+}
+span.Time {
+    margin-left: 35px;
+    color: #AAAAAA;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+}
+.Nazvanie{
+font-weight: 600px;
+font-size: 20px;
+line-height: 26px;
+}
+.Info{
+    display: flex;
+    margin-bottom: 25px;
+}
+div.Info span{
+    margin-right: 25px;
+    padding-top: 5px;
+}
+.Type{
+    color: #AAAAAA;
+font-size: 16px;
+line-height: 24px;
+font-weight: 400;
+
+}
+.Button-Treanslate{
+    margin: 18px;
+    width: 58px;
+    height: 26px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: solid 1px #A0A1D7;
+    color: #A0A1D7;
+    font-size: 12px;
+}
+.Button-Treanslate:hover{
+    font-weight: 800;
+    font-size: 12px;
+}
+.Photo{
+    width: 620px;
+height: 349.73px;
+margin-bottom: 22px;
+}
+.text-main{
+    width: 620px;
+    padding-right: 25px;
+    line-height: 1.5;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.04em;
+}
+.Foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+h2.foot {
+    margin-bottom: 8px;
+}
+li{
+    margin-top: 15px;
+}
+
+.Footer{
+    margin: 30px 50px;
+    margin-bottom: 10px;
+ }
+ Span.B{
+     margin-left: 45px;
+ }
+ .blue{
+    color:#4CB7EB;
+}

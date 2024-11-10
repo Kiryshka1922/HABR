@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/styleend.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+<div class="title">
+<div class="Name">
+    <img class="H" src="/image/Vector.svg" alt="H">
+    <img class="a" src="/image/Vector-1.svg" alt="a">
+    <img class="b" src="/image/Vector-2.svg" alt="b">
+    <img class="r" src="/image/Vector-3.svg" alt="r">
+</div>
+</div>
+<div class="head">
+<nav class="Navigation">
+    <a href="#" class="first">Моя лента</a>
+    <a href="#">Все потоки</a>
+    <a href="#">Разработка</a>
+    <a href="#">Дизайн</a>
+    <a href="#">Администрирование</a>
+    <a href="#">Менеджмент</a>
+    <a href="#">Маркетинг</a>
+    <a href="#">Научпоп</a>
+</nav>
+<div class="img"> 
+    <img class="main" src="/image/icons.svg" alt="icons">
+</div>
+</div>
+</header>
+<main>
+    <div class="konteiner">
+        <div class="Name-article">
+<span class="Nazvanie">Настройки публикации</span>
+        </div>
+        <div class="Opesoch">
+            <span class="Namespace">О песочнице</span>
+            <hr size="3" width="auto" color="#66666666">
+            <div class="first">Это <span class="blue">"Песочница"</span> — раздел, в который попадают дебютные публикации пользователей, желающих стать полноправными участниками сообщества.</div>
+            <div class="second">Если у вас есть приглашение,
+                отправьте его автору понравившейся публикации — тогда её смогут прочитать и обсудить все остальные пользователи Хабра.  </div>
+
+            <div class="third">Чтобы исключить предвзятость при оценке, все публикации анонимны, псевдонимы показываются случайным образом.</div>
+        
+        </div>
+        <div class="Pole">
+            <div class="Sett">
+            <div class="type"><span class="red">*</span> Тип публикации </div>
+            <div class="lang"><span class="red">*</span> Язык публикации</div>
+        </div>
+            <div class="MYButtons">
+                <div class="languagee" >
+                    <label for="button-0" onclick="clickevent0()" class="button-0"><input id="button-1" class="input"  type="radio"><p>Статья</p></label>
+                </div class="languagee" >                
+                <div class="Lang">
+                    <label for="button-1" onclick="clickevent1()" class="button-1"><input id="button-1" name="Language" class="input" type="radio"><p>Русский</p></label>
+                </div class="Lang">
+
+                <div>
+                    <label onclick="clickevent2()" for="button-2" class="button-2"><input type="radio" name="Language" class="input" id="button-2"><p>Английский</p></label>
+                </div>        
+</div>
+<div class="words">
+    <p><span class="red">*</span> Ключевые слова</p> 
+    <input class="Words-input" type="text" placeholder="Ключевые слова">
+    <p>Введите от 1 до 10 ключевых слов, отделяя их запятыми</p>
+</div>
+       <p class="tipe">Переведенный материал</p>
+       <input class="Translating" type="checkbox" name="Translate" id="123"/> <label for="123">Публикация является переводом</label> <br>
+        
+         Уровень сложности <br>
+         <div class="level">
+            <p>
+                <input type="radio" id="12" value="Not" checked name="level"/><label for="12">Не указан</label>
+            </p>
+            <p>
+                <input type="radio"  value="Simple" id="126" name="level"/><label for="126">Простой</label>
+            </p>
+            <p>
+                <input type="radio" value="Midle" id="124" name="level"/><label for="124">Средний</label>
+            </p>
+            <p>
+                <input type="radio" value="Hard" id="125" name="level"/><label for="125">Сложный</label>
+            </p>
+         </div>
+         <div class="Itog">
+            <span class="Public">Отображение публикации в ленте</span>
+    <section class="Adding">
+        <div class="Element">
+        <img src="/image/++.svg" alt="Add">
+        <p>Добавьте обложку</p>
+        <div class="BUTTONS"><input class="FIle" type="file"><span class="Click">Загрузить обложку</span></input></div>
+        </div>
+    </section class="Adding">
+    <div class="Element_1">
+        <p>Текст, который вы написали на первом этапе статьи</p>
+    </div>
+    <p class="SYmbol">Не менее 30 и не более 3000 символов.</p>
+    <div class="Moiendbuttons">
+       <a href="/Html/newarticle.html">
+         <button class="Butten">
+        Назад к публикации</p>
+         </button>
+       </a>
+        <button class="Butten">
+       <p> Опубликовать</p>
+        </button>
+    </div>
+         </div>
+        </div>
+        <div class="Pamiatka">
+            <span class="Namespace">Памятка автору</span>
+            <hr size="3" class="Pes" width="auto" color="#66666666" />
+            <section class="inform">
+              <div class="A">
+                <img
+                  src="/image/QWET.svg"
+                  class="Photo"
+                  width="32px"
+                  height="32px"
+                  alt=""
+                />
+                <p>Соблюдайте <span class="blue">правила сайта</span></p>
+              </div>
+              <div class="A">
+                <img
+                  src="/image/Frame-1.svg"
+                  class="Photo"
+                  width="32px"
+                  height="32px"
+                  alt=""
+                />
+                <p>
+                    Следуйте <span class="blue">советам </span> и заботливо оформляйте
+                    публикации
+                    
+                </p>   
+            </div>
+              <div class="A">
+                <img
+                  src="/image/Frame-2.svg"
+                  class="Photo"
+                  width="32px"
+                  height="32px"
+                  alt=""
+                />
+                Загружайте картинки меньше 8МБ для тела публикации и меньше 1МБ
+                для обложки публикации
+              </div>
+</div>
+    </div>
+</body>
+</html>
+</main>
+
+    <footer class="Foot">
+        <div class="nav1">
+            <h2 class="foot">Ваш аккаунт</h2>
+            <hr size="5" width="212" color="#66666666">
+            <table>
+                <ul>
+                    <li><a href="/Html/entrance.html">Войти</a></li>
+                    <li><a href="/Html/index.html">Регистрация</a></li>
+                </ul>
+            </table>
+        </div>
+        <div class="nav1">
+            <h2 class="foot">Разделы</h2>
+            <hr size="5" width="212" color="#66666666">
+            <table>
+                <ul>
+                    <li>Статьи</li>
+                    <li>Новости</li>
+                    <li>Хабы</li>
+                    <li>Компании</li>
+                    <li>Авторы</li>
+                    <li>Песочница</li>
+                </ul>
+            </table>
+        </div>
+        <div class="nav1">
+            <h2 class="foot">Информация</h2>
+            <hr size="5" width="212" color="#66666666">
+            <table>
+                <ul>
+                    <li>Устройство сайта</li>
+                    <li>Для авторов</li>
+                    <li>Для компаний</li>
+                    <li>Документы</li>
+                    <li>Соглашение</li>
+                    <li>Конфиденциальность</li>
+                </ul>
+            </table>
+        </div>
+        <div class="nav1">
+            <h2 class="foot">Услуги</h2>
+            <hr size="5" width="212" color="#66666666">
+            <table>
+                <ul>
+                    <li>Корпоративный блок</li>
+                    <li>Медийная реклама</li>
+                    <li>Нативные проекты</li>
+                    <li>Образовательные программы</li>
+                    <li>Стартапам</li>
+                </ul>
+            </table>
+        </div>
+    </footer>
+    <div class="Footer">© 2006–2024, Habr <span class="blue B">Техническая поддержка</span> <span class="blue B"> Настройки языка</span></div>
+<script src="/js/MY.js"></script>
+</body>
+</html>
