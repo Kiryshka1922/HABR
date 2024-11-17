@@ -192,3 +192,73 @@ li{
  .blue{
     color:#4CB7EB;
 }
+.menu-top{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-bottom: 24px;
+}
+.Menu img{
+    width: 36px;
+    height: 36px;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    height: fit-content;
+}
+.menu-botomn{
+    flex-direction: column;
+    row-gap:24px;
+}
+
+.NAME{
+    font-family: Arial;
+font-size: 13px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+color: #DDDDDD;
+}
+.Digits{
+    font-family: Arial;
+font-size: 13px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+color: #E064B7;
+}
+.menu-top div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu-botomn div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Press{
+display: block;
+}
+.Reset{
+display: block;
+}
+.Best{
+    text-align: center;
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 1px;
+color: #AAAAAA;
+margin-bottom: 5px;
+}
+.CHerta{
+    margin: 15px 0px;
+}
+.BUtten:hover{
+    color:#4CB7EB;
+}
